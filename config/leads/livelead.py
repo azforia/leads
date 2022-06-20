@@ -43,9 +43,7 @@ def sendlead(line):
     email = '' #get from database
     phone = '' #get from database
 
-    #get ccode from database
-    #################################################
-    #################################################
+    #get ccode from database   
     with open("/home/abin/Leads/leads/SE7K.csv", 'r') as f:
         mycsv = csv.reader(f)
         mycsv = list(mycsv)
